@@ -4,6 +4,7 @@ pipeline {
     agent varun
     agent mahi
     agent Varun
+    agent roshan
     stages {
         stage('Build') {
             steps {
